@@ -1,0 +1,13 @@
+.header{
+    justify-content: flex-end;
+    align-items: center;
+    display: flex;
+}
+.heading{
+    margin-right: auto;
+}
+.list{
+    display: flex;
+    list-style: none;
+    gap: 1em;
+}
