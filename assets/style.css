@@ -90,17 +90,46 @@ section{
     grid-template-areas:"pj1 pj1" 
                         "pj2 pj3"
                         "pj4 pj5";
+    gap: 1em;
 }
 .work-project-1{
 grid-area: pj1;
+position: relative;
 background-image: url("/images/02-portfolio-4.jpg");
+border: 1ps solid black;
 background-position:  center;
     background-repeat: no-repeat;
     background-size: cover;
 height: 400px;
 min-width: 800px;
 }
+.work-project-layer{
+    position: absolute;
+    background: rgba(239,152,167,0.5);
+/* background: linear-gradient(135deg, rgba(239,152,167,0.5) 4%, rgba(128,112,148,1) 100%); */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: all .3s ease-in-out;
+    border: 3px solid #EF98A7;
+}
+.work-project-heading{
+    position: absolute;
+    z-index: 1;
+    background-color: #EF98A7;
+    color: #604F71;
+    bottom: 0;
+    padding: 10px 20px;
+    font-size: 1.8rem;
+}
+.work-project-layer:hover{
+    cursor: pointer;
+    /* transition: all 1s ease-in-out; */
+    background: transparent;
+}
 .work-project-2{
+    position: relative;
     grid-area: pj2;
     background-image: url("/images/02-portfolio-2.jpg");
     background-position:  center;
@@ -110,6 +139,7 @@ height: 200px;
 width: 100%;
 }
 .work-project-3{
+    position: relative;
     grid-area: pj3;
     background-image: url("/images/02-portfolio-3.jpg");
     background-position:  center;
@@ -119,6 +149,7 @@ height: 200px;
 width: 100%;
 }
 .work-project-4{
+    position: relative;
     grid-area: pj4;
     background-image: url("/images/02-portfolio-1.jpg");
     background-position:  center;
@@ -128,6 +159,7 @@ height: 200px;
 width: 100%;
 }
 .work-project-5{
+    position: relative;
     grid-area: pj5;
     background-image: url("/images/02-run-buddy.jpg");
     background-position:  center;
