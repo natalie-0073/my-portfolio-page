@@ -14,7 +14,7 @@ html {
 }
 .subheader-subtitle {
   position: relative;
-  background-image: url("/images/02-hero-bg.jpg");
+  background-image: url("../images/02-hero-bg.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -109,7 +109,7 @@ html {
 .work-project-1 {
   grid-area: pj1;
   position: relative;
-  background-image: url("/images/02-portfolio-4.jpg");
+  background-image: url("../images/02-portfolio-4.jpg");
 
   height: 400px;
   min-width: 800px;
@@ -140,17 +140,17 @@ html {
 .work-project-2 {
   position: relative;
   grid-area: pj2;
-  background-image: url("/images/02-portfolio-2.jpg");
+  background-image: url("../images/02-portfolio-2.jpg");
 }
 .work-project-3 {
   position: relative;
   grid-area: pj3;
-  background-image: url("/images/02-portfolio-3.jpg");
+  background-image: url("../images/02-portfolio-3.jpg");
 }
 .work-project-4 {
   position: relative;
   grid-area: pj4;
-  background-image: url("/images/02-portfolio-1.jpg");
+  background-image: url("../images/02-portfolio-1.jpg");
 }
 .work-project-5 {
   position: relative;
